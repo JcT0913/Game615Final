@@ -20,13 +20,13 @@ public class MenuScript : MonoBehaviour
     public void PlayButton()
     {
         Debug.Log("Play Button Pressed");
-        EditorSceneManager.LoadScene(1);
+        EditorSceneManager.LoadScene(2);
     }
 
     public void ControlButton()
     {
         Debug.Log("Control Button Pressed");
-        EditorSceneManager.LoadScene(2);
+        EditorSceneManager.LoadScene(1);
     }
 
     public void ExitButton()

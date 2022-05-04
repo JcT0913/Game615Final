@@ -20,7 +20,7 @@ public class ControlPageButtonsScript : MonoBehaviour
     public void StartGameButton()
     {
         Debug.Log("Start Game Button Pressed");
-        EditorSceneManager.LoadScene(1);
+        EditorSceneManager.LoadScene(2);
     }
 
     public void BackToMenuButton()
