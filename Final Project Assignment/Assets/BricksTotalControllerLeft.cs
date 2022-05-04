@@ -7,7 +7,7 @@ public class BricksTotalControllerLeft : MonoBehaviour
     public float disabledBricksCountLeft = 0;
     // 0 means moving towards left, 1 means moving towards right
     private float speedDirection = 0;
-    public float moveSpeed = 1;
+    public float moveSpeed = 0.5f;
 
     public List<GameObject> leftBricks = new List<GameObject>();
     public List<GameObject> disabledBricksLeft = new List<GameObject>();

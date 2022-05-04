@@ -1384,6 +1384,7 @@ GameObject:
   - component: {fileID: 193794937}
   - component: {fileID: 193794939}
   - component: {fileID: 193794938}
+  - component: {fileID: 193794940}
   m_Layer: 5
   m_Name: TimeLimitText
   m_TagString: Untagged
@@ -1507,6 +1508,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193794936}
   m_CullTransparentMesh: 1
+--- !u!114 &193794940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193794936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0cc576ee746154db7311405a7d97c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemainedInSeconds: 90
 --- !u!1 &259124302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,7 +3917,7 @@ MonoBehaviour:
   - {fileID: 1730301263}
   - {fileID: 1722174211}
   - {fileID: 1591609018}
-  disabledBricks: []
+  disabledBricksLeft: []
 --- !u!1 &1012729401
 GameObject:
   m_ObjectHideFlags: 0
@@ -4954,7 +4968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disabledBricksCountRight: 0
-  moveSpeed: 1
+  moveSpeed: 0.5
   rightBricks:
   - {fileID: 22074375}
   - {fileID: 1001749381}
@@ -4979,7 +4993,7 @@ MonoBehaviour:
   - {fileID: 772656941}
   - {fileID: 146875465}
   - {fileID: 1242548577}
-  disabledBricks: []
+  disabledBricksRight: []
 --- !u!4 &1364761603
 Transform:
   m_ObjectHideFlags: 0
