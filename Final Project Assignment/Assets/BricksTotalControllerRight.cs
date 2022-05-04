@@ -9,7 +9,8 @@ public class BricksTotalControllerRight : MonoBehaviour
     private float speedDirection = 0;
     public float moveSpeed = 1;
 
-    public List<Transform> rightBricks = new List<Transform>();
+    public List<GameObject> rightBricks = new List<GameObject>();
+    public List<GameObject> disabledBricksRight = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,17 @@ public class BricksTotalControllerRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (disabledBricksCountRight > 0)
+        {
+            foreach (GameObject go in rightBricks)
+            {
+                if (!go.activeSelf && !disabledBricksRight.Contains(go))
+                {
+                    disabledBricksRight.Add(go);
+                }
+            }
+        }
+
         if (disabledBricksCountRight < rightBricks.Count)
         {
             if (transform.position.x > 3.9f && speedDirection == 0)
@@ -44,12 +56,32 @@ public class BricksTotalControllerRight : MonoBehaviour
     public void DisabledCountIncrease()
     {
         disabledBricksCountRight += 1;
-        Debug.Log(disabledBricksCountRight);
+        //Debug.Log(disabledBricksCountRight);
     }
 
     public void DisabledCountDecrease()
     {
         disabledBricksCountRight -= 1;
-        Debug.Log(disabledBricksCountRight);
+        //Debug.Log(disabledBricksCountRight);
+    }
+
+    public void NewBrick()
+    {
+        if (disabledBricksCountRight > 0)
+        {
+            //foreach (GameObject go in rightBricks)
+            //{
+            //    if (!go.activeSelf && !disabledBricksRight.Contains(go))
+            //    {
+            //        disabledBricksRight.Add(go);
+            //    }
+            //}
+
+            int selectedBrickNumber = (int)Random.Range(0, disabledBricksCountRight);
+            disabledBricksRight[selectedBrickNumber].SetActive(true);
+            disabledBricksRight.RemoveAt(selectedBrickNumber);
+            //disabledBricksRight.Clear();
+            DisabledCountDecrease();
+        }
     }
 }

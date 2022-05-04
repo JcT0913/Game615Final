@@ -24,7 +24,7 @@ public class BrickControlLeft : MonoBehaviour
         {
             //Destroy(gameObject);
             gameObject.SetActive(false);
-
+         
             bricksTotalController.SendMessage("DisabledCountIncrease");
         }
     }

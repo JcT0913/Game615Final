@@ -3507,7 +3507,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLeft: {fileID: 1507137748}
+  bricksControllerLeft: {fileID: 1012173417}
   playerRight: {fileID: 20753100}
+  bricksControllerRight: {fileID: 1364761603}
 --- !u!1 &979852964
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,29 +3880,30 @@ MonoBehaviour:
   disabledBricksCountLeft: 0
   moveSpeed: 0.5
   leftBricks:
-  - {fileID: 1757649166}
-  - {fileID: 1239739711}
-  - {fileID: 2133878421}
-  - {fileID: 994641067}
-  - {fileID: 939232190}
-  - {fileID: 161354208}
-  - {fileID: 806833823}
-  - {fileID: 1724645007}
-  - {fileID: 435558326}
-  - {fileID: 1362107803}
-  - {fileID: 896063480}
-  - {fileID: 1330030979}
-  - {fileID: 631060544}
-  - {fileID: 1703031940}
-  - {fileID: 2041887617}
-  - {fileID: 1604971209}
-  - {fileID: 428291940}
-  - {fileID: 129776291}
-  - {fileID: 103309352}
-  - {fileID: 21544329}
-  - {fileID: 1730301264}
-  - {fileID: 1722174212}
-  - {fileID: 1591609019}
+  - {fileID: 1757649160}
+  - {fileID: 1239739710}
+  - {fileID: 2133878420}
+  - {fileID: 994641066}
+  - {fileID: 939232189}
+  - {fileID: 161354207}
+  - {fileID: 806833822}
+  - {fileID: 1724645006}
+  - {fileID: 435558325}
+  - {fileID: 1362107802}
+  - {fileID: 896063479}
+  - {fileID: 1330030978}
+  - {fileID: 631060543}
+  - {fileID: 1703031939}
+  - {fileID: 2041887616}
+  - {fileID: 1604971208}
+  - {fileID: 428291939}
+  - {fileID: 129776290}
+  - {fileID: 103309351}
+  - {fileID: 21544328}
+  - {fileID: 1730301263}
+  - {fileID: 1722174211}
+  - {fileID: 1591609018}
+  disabledBricks: []
 --- !u!1 &1012729401
 GameObject:
   m_ObjectHideFlags: 0
@@ -4953,29 +4956,30 @@ MonoBehaviour:
   disabledBricksCountRight: 0
   moveSpeed: 1
   rightBricks:
-  - {fileID: 22074376}
-  - {fileID: 1001749382}
-  - {fileID: 259124303}
-  - {fileID: 293247956}
-  - {fileID: 1333299892}
-  - {fileID: 1458574150}
-  - {fileID: 1499158893}
-  - {fileID: 303340522}
-  - {fileID: 144627074}
-  - {fileID: 681267422}
-  - {fileID: 1142297771}
-  - {fileID: 261832934}
-  - {fileID: 440762403}
-  - {fileID: 61581409}
-  - {fileID: 760292116}
-  - {fileID: 1556574162}
-  - {fileID: 291740566}
-  - {fileID: 1997501682}
-  - {fileID: 1657986251}
-  - {fileID: 1378188100}
-  - {fileID: 772656942}
-  - {fileID: 146875466}
-  - {fileID: 1242548578}
+  - {fileID: 22074375}
+  - {fileID: 1001749381}
+  - {fileID: 259124302}
+  - {fileID: 293247955}
+  - {fileID: 1333299891}
+  - {fileID: 1458574149}
+  - {fileID: 1499158892}
+  - {fileID: 303340521}
+  - {fileID: 144627073}
+  - {fileID: 681267421}
+  - {fileID: 1142297770}
+  - {fileID: 261832933}
+  - {fileID: 440762402}
+  - {fileID: 61581408}
+  - {fileID: 760292115}
+  - {fileID: 1556574161}
+  - {fileID: 291740565}
+  - {fileID: 1997501681}
+  - {fileID: 1657986250}
+  - {fileID: 1378188099}
+  - {fileID: 772656941}
+  - {fileID: 146875465}
+  - {fileID: 1242548577}
+  disabledBricks: []
 --- !u!4 &1364761603
 Transform:
   m_ObjectHideFlags: 0

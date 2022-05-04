@@ -9,7 +9,8 @@ public class BricksTotalControllerLeft : MonoBehaviour
     private float speedDirection = 0;
     public float moveSpeed = 1;
 
-    public List<Transform> leftBricks = new List<Transform>();
+    public List<GameObject> leftBricks = new List<GameObject>();
+    public List<GameObject> disabledBricksLeft = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,17 @@ public class BricksTotalControllerLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (disabledBricksCountLeft > 0)
+        {
+            foreach (GameObject go in leftBricks)
+            {
+                if (!go.activeSelf && !disabledBricksLeft.Contains(go))
+                {
+                    disabledBricksLeft.Add(go);
+                }
+            }
+        }
+
         if (disabledBricksCountLeft < leftBricks.Count)
         {
             if (transform.position.x > -4.9f && speedDirection == 0)
@@ -44,12 +56,32 @@ public class BricksTotalControllerLeft : MonoBehaviour
     public void DisabledCountIncrease()
     {
         disabledBricksCountLeft += 1;
-        Debug.Log(disabledBricksCountLeft);
+        //Debug.Log(disabledBricksCountLeft);
     }
 
     public void DisabledCountDecrease()
     {
         disabledBricksCountLeft -= 1;
-        Debug.Log(disabledBricksCountLeft);
+        //Debug.Log(disabledBricksCountLeft);
+    }
+
+    public void NewBrick()
+    {
+        if (disabledBricksCountLeft > 0)
+        {
+            //foreach (GameObject go in leftBricks)
+            //{
+            //    if (!go.activeSelf && !disabledBricksLeft.Contains(go))
+            //    {
+            //        disabledBricksLeft.Add(go);
+            //    }
+            //}
+
+            int selectedBrickNumber = (int)Random.Range(0, disabledBricksCountLeft);
+            disabledBricksLeft[selectedBrickNumber].SetActive(true);
+            disabledBricksLeft.RemoveAt(selectedBrickNumber);
+            //disabledBricksLeft.Clear();
+            DisabledCountDecrease();
+        }
     }
 }

@@ -5,7 +5,9 @@ using UnityEngine;
 public class RestartLevel : MonoBehaviour
 {
     public Transform playerLeft;
+    public Transform bricksControllerLeft;
     public Transform playerRight;
+    public Transform bricksControllerRight;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class RestartLevel : MonoBehaviour
             collision.gameObject.GetComponent<BallMovementLeft>().StartOfBall();
 
             playerLeft.SendMessage("PunishmentLeft");
+            bricksControllerRight.SendMessage("NewBrick");
         }
 
         if (collision.gameObject.tag == "BallRight")
@@ -35,6 +38,7 @@ public class RestartLevel : MonoBehaviour
             collision.gameObject.GetComponent<BallMovementRight>().StartOfBall();
 
             playerRight.SendMessage("PunishmentRight");
+            bricksControllerLeft.SendMessage("NewBrick");
         }
     }
 }
