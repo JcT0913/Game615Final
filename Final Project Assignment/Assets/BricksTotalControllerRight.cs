@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BricksTotalControllerLeft : MonoBehaviour
+public class BricksTotalControllerRight : MonoBehaviour
 {
-    public float disabledBricksCountLeft = 0;
+    public float disabledBricksCountRight = 0;
     // 0 means moving towards left, 1 means moving towards right
     private float speedDirection = 0;
     public float moveSpeed = 1;
 
-    public List<Transform> leftBricks = new List<Transform>();
+    public List<Transform> rightBricks = new List<Transform>();
 
     // Start is called before the first frame update
     void Start()
@@ -20,21 +20,21 @@ public class BricksTotalControllerLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (disabledBricksCountLeft < leftBricks.Count)
+        if (disabledBricksCountRight < rightBricks.Count)
         {
-            if (transform.position.x > -4.9f && speedDirection == 0)
+            if (transform.position.x > 3.9f && speedDirection == 0)
             {
                 transform.Translate(new Vector3(moveSpeed * -0.0075f, 0, 0));
             }
-            else if (transform.position.x <= -4.9f && speedDirection == 0)
+            else if (transform.position.x <= 3.9f && speedDirection == 0)
             {
                 speedDirection = 1;
             }
-            else if (transform.position.x < -3.9f && speedDirection == 1)
+            else if (transform.position.x < 4.9f && speedDirection == 1)
             {
                 transform.Translate(new Vector3(moveSpeed * 0.0075f, 0, 0));
             }
-            else if (transform.position.x >= -3.9f && speedDirection == 1)
+            else if (transform.position.x >= 4.9f && speedDirection == 1)
             {
                 speedDirection = 0;
             }
@@ -43,13 +43,13 @@ public class BricksTotalControllerLeft : MonoBehaviour
 
     public void DisabledCountIncrease()
     {
-        disabledBricksCountLeft += 1;
-        Debug.Log(disabledBricksCountLeft);
+        disabledBricksCountRight += 1;
+        Debug.Log(disabledBricksCountRight);
     }
 
     public void DisabledCountDecrease()
     {
-        disabledBricksCountLeft -= 1;
-        Debug.Log(disabledBricksCountLeft);
+        disabledBricksCountRight -= 1;
+        Debug.Log(disabledBricksCountRight);
     }
 }
