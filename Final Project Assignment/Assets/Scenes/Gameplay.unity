@@ -1770,6 +1770,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95015fa00a4971c49b2821e28a2a9c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0.5
+  leftBricks:
+  - {fileID: 1757649166}
+  - {fileID: 1239739711}
+  - {fileID: 2133878421}
+  - {fileID: 994641067}
+  - {fileID: 939232190}
+  - {fileID: 161354208}
+  - {fileID: 806833823}
+  - {fileID: 1724645007}
+  - {fileID: 435558326}
+  - {fileID: 1362107803}
+  - {fileID: 896063480}
+  - {fileID: 1330030979}
+  - {fileID: 631060544}
+  - {fileID: 1703031940}
+  - {fileID: 2041887617}
+  - {fileID: 1604971209}
+  - {fileID: 428291940}
+  - {fileID: 129776291}
+  - {fileID: 103309352}
+  - {fileID: 21544329}
+  - {fileID: 1730301264}
+  - {fileID: 1722174212}
+  - {fileID: 1591609019}
 --- !u!1 &1012729401
 GameObject:
   m_ObjectHideFlags: 0
