@@ -20,7 +20,7 @@ public class BrickControlLeft : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ball")
+        if (collision.gameObject.tag == "BallLeft")
         {
             //Destroy(gameObject);
             gameObject.SetActive(false);
