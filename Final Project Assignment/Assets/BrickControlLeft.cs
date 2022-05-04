@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BrickControlLeft : MonoBehaviour
 {
+    public Transform bricksTotalController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,8 @@ public class BrickControlLeft : MonoBehaviour
         {
             //Destroy(gameObject);
             gameObject.SetActive(false);
+
+            bricksTotalController.SendMessage("DisabledCountIncrease");
         }
     }
 }

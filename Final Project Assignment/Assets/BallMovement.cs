@@ -33,8 +33,7 @@ public class BallMovement : MonoBehaviour
 
     public void ResetBallPosition()
     {
-        transform.position = new Vector3(-4.4f, -0.66f, 0);
-        // call StartOfBall() here will make speed of ball increases
-        //StartOfBall();
+        //transform.position = new Vector3(-4.4f, -0.66f, 0);
+        StartOfBall();
     }
 }
