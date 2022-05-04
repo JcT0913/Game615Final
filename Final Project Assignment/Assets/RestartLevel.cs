@@ -23,7 +23,7 @@ public class RestartLevel : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
             collision.gameObject.transform.position = new Vector3(-4.4f, -0.66f, 0);
-            collision.gameObject.GetComponent<BallMovement>().StartOfBall();
+            collision.gameObject.GetComponent<BallMovementLeft>().StartOfBall();
 
             player.SendMessage("Punishment");
         }

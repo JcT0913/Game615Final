@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeftBricksTotalController : MonoBehaviour
+public class BricksTotalControllerLeft : MonoBehaviour
 {
     public float disabledBricksCount = 0;
     // 0 means moving towards left, 1 means moving towards right
