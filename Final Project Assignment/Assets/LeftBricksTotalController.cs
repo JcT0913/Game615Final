@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LeftBricksTotalController : MonoBehaviour
 {
-    private float disabledBricksCount = 0;
+    public float disabledBricksCount = 0;
     // 0 means moving towards left, 1 means moving towards right
     private float speedDirection = 0;
     public float moveSpeed = 1;
