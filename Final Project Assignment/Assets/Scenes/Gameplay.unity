@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &21544331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -277,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &103309354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -385,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &129776293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -493,6 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &161354210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -601,6 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &428291942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -804,6 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &435558328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1007,6 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &631060546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1115,6 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &806833825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1223,6 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &896063482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1331,6 +1340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &939232192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1631,6 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &994641069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2024,6 +2035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1239739713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2132,6 +2144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1330030981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2240,6 +2253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1362107805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2553,6 +2567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1591609021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2661,6 +2676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1604971211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2864,6 +2880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1703031942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2972,6 +2989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1722174214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3080,6 +3098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1724645009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3188,6 +3207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1730301266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3282,6 +3302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &1757649163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3439,6 +3460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &2041887619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3547,6 +3569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8dacbb8c280a5c45bfdac529254ef47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bricksTotalController: {fileID: 1012173417}
 --- !u!65 &2133878423
 BoxCollider:
   m_ObjectHideFlags: 0
