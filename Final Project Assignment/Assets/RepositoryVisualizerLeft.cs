@@ -5,6 +5,8 @@ using TMPro;
 
 public class RepositoryVisualizerLeft : MonoBehaviour
 {
+    public int scoreLeft;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class RepositoryVisualizerLeft : MonoBehaviour
         {
             List<Transform> list;
             BallMovementLeft.repositoryDictLeft.TryGetValue("Brick", out list);
+            scoreLeft = list.Count;
             transform.GetComponent<TextMeshProUGUI>().text = "Score: " + list.Count.ToString();
         }
     }

@@ -7,11 +7,16 @@ public class TimeCountdown : MonoBehaviour
 {
     public float timeRemainedInSeconds = 90;
     private bool timeRunning = false;
+    public GameObject resultWindow;
+
+    GameObject intoPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
         timeRunning = true;
+
+        //intoPrefab = Instantiate(resultWindow) as GameObject;
     }
 
     // Update is called once per frame
@@ -27,6 +32,8 @@ public class TimeCountdown : MonoBehaviour
         {
             timeRemainedInSeconds = 0;
             timeRunning = false;
+            resultWindow.SendMessage("ShowResult");
+            //GameObject.Find("Result").SendMessage("ShowResult");
         }
     }
 
